@@ -1,0 +1,5 @@
+# How many diamonds should new players get?
+reward-amount: 8
+
+# Should the plugin give new players diamonds?
+enabled: true

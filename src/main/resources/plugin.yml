@@ -1,0 +1,17 @@
+name: FirstJoin
+description: Gives a player diamonds the first time he/she joins.
+
+author: SavageAvocado
+website: https://www.savagedev.net/
+
+version: ${version}
+main: net.savagedev.firstjoin.FirstJoin
+api-version: 1.13
+
+commands:
+  firstjoin:
+    permission: firstjoin.use
+
+permissions:
+  firstjoin.use:
+    default: op
