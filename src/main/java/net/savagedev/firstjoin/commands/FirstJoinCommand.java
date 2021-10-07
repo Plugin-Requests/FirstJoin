@@ -25,7 +25,7 @@ public class FirstJoinCommand implements CommandExecutor {
         if (this.isNumber(input)) {
             final int amount = Integer.parseInt(input);
             if (amount < 1 || amount > 2304) {
-                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&aReward amount must be between 1 - 2,304." + amount));
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&aReward amount must be between 1 - 2,304."));
                 return true;
             }
             this.firstJoin.getConfig().set("reward-amount", amount);
